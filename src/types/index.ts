@@ -1,3 +1,8 @@
+export * from './balances'
+export * from './currencies'
+export * from './fills'
+export * from './ftx'
+export * from './withdrawals'
 export * from './pairs'
 export * from './quotes'
 

@@ -1,5 +1,5 @@
-import HmacSHA256 from 'crypto-js/hmac-sha256'
 import encodeHex from 'crypto-js/enc-hex'
+import HmacSHA256 from 'crypto-js/hmac-sha256'
 import got, { Got } from 'got'
 import { DateTime } from 'luxon'
 
@@ -10,12 +10,12 @@ import {
   QuotesMethods,
   RequestBody,
   RequestParams,
+  BalancesMethods,
+  CurrenciesMethods,
+  FillsMethods,
+  FtxMethods,
+  WithdrawalsMethods,
 } from './types'
-import { BalancesMethods } from './types/balances'
-import { CurrenciesMethods } from './types/currencies'
-import { FillsMethods } from './types/fills'
-import { FtxMethods } from './types/ftx'
-import { WithdrawalsMethods } from './types/withdrawals'
 
 const FTX_OTC_API_URL = `https://otc.ftx.com/api`
 
